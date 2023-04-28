@@ -10,8 +10,10 @@
 		"args": { 
 			"VARIANT": "18"
 		}
+
 	},
 "postStartCommand": "cd react-app && npm i && npm start",
+"initializeCommand":["explorer http://localhost:3000"],
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
